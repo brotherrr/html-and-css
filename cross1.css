@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(AnonymousPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(AnonymousPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Anonymous Pro;
+}
+
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Anonymous Pro", sans-serif;
+  align-items: center;
+  gap: 25px;
+  background: #F1F1F1;
+  flex-wrap: wrap;
+  margin: 0;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F1F1F1;
+}
+/*<header>*/
+.headlink {
+  color: #121723;
+  font-size: 20px;
+  font-weight: 700;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #A1A6B4;
+  background: white;
+}.header__container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+  margin: 24px 0 24px;
+}
+
+.logolink {
+  max-width: 215px;
+}
+
+nav {
+  display: flex;
+}
+
+.headerlinklist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+
+.link__li {
+  display: inline;
+}
+/*</header>*/
+/*<footer>*/
+
+.footer-nav {
+  color: #fff
+}
+
+footer {
+display: flex;
+flex-direction: column;
+background: rgb(0, 0, 0);
+padding: 20px;
+width: 100% ;
+}
+ .copyright {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+.footerlinks {
+color: #ffffff;
+font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+list-style: none;
+padding-bottom: 25px;
+display: flex;
+}
+
+.footerlink-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+.footer-bottom {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #A1A6B4;
+}
+.footertop {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 40px;}
+.containertitle {
+font-size: 26px;
+font-family: Anonymous Pro;
+font-weight: 700;
+color: black;
+text-decoration: none;
+}
+/*</footer>*/
+/* для index.html*/
+.sneaker {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 370px;
+    height: 100%;
+    border-radius: 12px;
+    background: white; 
+} 
+.collectiontxt{
+  padding-left: 165px;
+  font-size: 48px;
+  margin: 20px 20px 20px 20px;
+}
+.sneaker__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+  max-width: 323px;
+  gap: 10px;
+  margin: 32px 0;
+  background: #ffffff;
+}
+.sneakerlink {
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  height:auto;
+}
+.grandcontainer {
+  gap: 24px;
+  width: 1161px;
+  display: flex;
+  margin:0 auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction:row;
+  padding-bottom: 30px;
+}
+/*indexend*/
+
+
+
+
+h1 {
+  font-size: 48px;
+}
+
+.sneaker:hover {
+  border-radius: 12px;
+  transform: translate(0px, -10px);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.link__li:hover {
+  color: rgb(0, 102, 255);
+}
+
+
+
+.ssneaker p {
+  font-size: 48px;
+}
+
+.nsneaker p {
+  font-size: 36px;
+}
+
+.sneaktxt p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.ttas p {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.grandsneaker {
+  padding: 32px 16px;
+}
+
+.bsc {
+  background: #FFF;
+  border-radius: 50px;
+}
+
+.imgbigsneaker {
+  width: 1044px;
+  max-width: 100%;
+}
+
+.ttbc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+
+.btbc {
+  margin-top: 24px;
+}
+
+
+.line {
+  background-color: #121723;
+  height: 1px;
+}
+
+.abtsneak {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+
+
+
+
+@media screen and (max-width: 376px) {
+  body {
+      max-width: 376px;
+  }
+
+  .header__container {
+      display: flex;
+      flex-wrap: wrap; 
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+  }
+.collectiontxt{
+  padding: 0px 16px 0px 16px;
+  margin: 0;
+  font-size:32px;
+}
+  h1 {
+     width: 343px;
+     font-size: 32px;
+  }
+  .sneaker__info{
+    width:375px;
+  }
+  .containerimg{
+    width: 343px;;
+  }
+  .grandcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      width: 375px;
+  }
+
+  .sneaker {
+      width: 343px;
+  }
+.footerlink-container{
+  padding-top: 16px;
+}
+
+
+
+
+  .footer-bottom {
+      width: 343px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1140px;
+      border-top: 1px solid #A1A6B4;
+  }
+
+.footertop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom:0px;
+padding-left: 15px;} 
+}
+/* адаптив для внутрннeй страницы кроссовок */
+@media screen and (max-width: 376px) {
+
+  .bsc {
+      width: 343px;
+      padding: 24px;
+  }
+
+  .imgbigsneaker {
+      width: 295px;
+  }
+
+  h2 {
+      font-size: 32px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+ 
+  .btbc {
+      width: 295px;     
+      display: flex;
+      flex-direction: column;  
+      align-items: center;  
+      gap: 24px;
+  }
+
+  .sneaktxt {
+      width: 295px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+  }
+
+  .abtsneak {
+      width: 295px;
+  }
+
+  .line {
+      width: 295px;
+  }
+
+  .okrossah-txt {
+      width: 295px;
+  }
+  
+  .okrossah_txt-p {
+      font-size: 24px;
+  }
+
+  p {
+      font-size: 16px;
+  }   
+.ssneaker p {
+  font-size: 32px;
+}
+.nsneaker p{
+  font-size: 20px;
+}
+.sneaktxt p {
+  font-size: 16px;
+}
+}
+@media screen and (min-width: 1024px) {
+
+  .btbc {
+      margin-top: 24px;
+      display: flex;
+      gap: 32px;
+;}
+
+  .grandsneaker{
+      display: flex;
+      flex-direction: column;
+      padding: 48px;
+      max-width: 1140px;
+      border-radius: 50px;
+      background-color: #FFF;
+      margin: 20px;
+  }
+
+  .sneaktxt {
+      max-width: 506px;
+  }
+
+.copyright {
+  color: var(--text_gray, #A1A6B4);
+  background-color: #000000;
+  height: 40px;
+  display: flex;
+  width: 100%;
+  margin: 24px;
+  font-family:Anonymous Pro;
+  justify-content: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+  }
+
+/*я смог,ураа:)*/
